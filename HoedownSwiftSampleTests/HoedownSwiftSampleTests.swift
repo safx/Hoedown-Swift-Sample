@@ -23,18 +23,14 @@ class HoedownSwiftSampleTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-
-        let input = "* わたしの名前は\n* 中野です"
-        let output = render(input)
-        println("output: \(output)")
+        XCTAssertEqual("<ul>\n<li>わたしの名前は</li>\n<li>中野です</li>\n</ul>\n", render("* わたしの名前は\n* 中野です")!)
     }
-    
+
     func testPerformanceExample() {
-        // This is an example of a performance test case.
         self.measureBlock() {
-            // Put the code you want to measure the time of here.
+            for var i = 0; i < 10000; ++i {
+                render("* わたしの名前は\n* 中野です")
+            }
         }
     }
     
