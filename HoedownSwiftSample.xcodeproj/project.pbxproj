@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D8289F31AB862AC00D59453 /* HoedownSwiftSample.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8289F21AB862AC00D59453 /* HoedownSwiftSample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D8289F91AB862AC00D59453 /* HoedownSwiftSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8289ED1AB862AC00D59453 /* HoedownSwiftSample.framework */; };
+		8D828A001AB862AC00D59453 /* HoedownSwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8289FF1AB862AC00D59453 /* HoedownSwiftSampleTests.swift */; };
+		8D828A1A1AB8647000D59453 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A0A1AB8647000D59453 /* autolink.c */; };
+		8D828A1B1AB8647000D59453 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D828A0B1AB8647000D59453 /* autolink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D828A1C1AB8647000D59453 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A0C1AB8647000D59453 /* buffer.c */; };
+		8D828A1D1AB8647000D59453 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D828A0D1AB8647000D59453 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D828A1E1AB8647000D59453 /* document.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A0E1AB8647000D59453 /* document.c */; };
+		8D828A1F1AB8647000D59453 /* document.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D828A0F1AB8647000D59453 /* document.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D828A201AB8647000D59453 /* escape.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A101AB8647000D59453 /* escape.c */; };
+		8D828A211AB8647000D59453 /* escape.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D828A111AB8647000D59453 /* escape.h */; };
+		8D828A221AB8647000D59453 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A121AB8647000D59453 /* html.c */; };
+		8D828A231AB8647000D59453 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D828A131AB8647000D59453 /* html.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D828A241AB8647000D59453 /* html_blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A141AB8647000D59453 /* html_blocks.c */; };
+		8D828A251AB8647000D59453 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A151AB8647000D59453 /* html_smartypants.c */; };
+		8D828A261AB8647000D59453 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A161AB8647000D59453 /* stack.c */; };
+		8D828A271AB8647000D59453 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D828A171AB8647000D59453 /* stack.h */; };
+		8D828A281AB8647000D59453 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A181AB8647000D59453 /* version.c */; };
+		8D828A291AB8647000D59453 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D828A191AB8647000D59453 /* version.h */; };
+		8D828A2B1AB8649500D59453 /* hoedown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D828A2A1AB8649500D59453 /* hoedown.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D8289FA1AB862AC00D59453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D8289E41AB862AC00D59453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D8289EC1AB862AC00D59453;
+			remoteInfo = HoedownSwiftSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D8289ED1AB862AC00D59453 /* HoedownSwiftSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoedownSwiftSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8289F11AB862AC00D59453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8289F21AB862AC00D59453 /* HoedownSwiftSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoedownSwiftSample.h; sourceTree = "<group>"; };
+		8D8289F81AB862AC00D59453 /* HoedownSwiftSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoedownSwiftSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8289FE1AB862AC00D59453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8289FF1AB862AC00D59453 /* HoedownSwiftSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoedownSwiftSampleTests.swift; sourceTree = "<group>"; };
+		8D828A0A1AB8647000D59453 /* autolink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = autolink.c; sourceTree = "<group>"; };
+		8D828A0B1AB8647000D59453 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		8D828A0C1AB8647000D59453 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		8D828A0D1AB8647000D59453 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		8D828A0E1AB8647000D59453 /* document.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = document.c; sourceTree = "<group>"; };
+		8D828A0F1AB8647000D59453 /* document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = document.h; sourceTree = "<group>"; };
+		8D828A101AB8647000D59453 /* escape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = escape.c; sourceTree = "<group>"; };
+		8D828A111AB8647000D59453 /* escape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = escape.h; sourceTree = "<group>"; };
+		8D828A121AB8647000D59453 /* html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = html.c; sourceTree = "<group>"; };
+		8D828A131AB8647000D59453 /* html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = html.h; sourceTree = "<group>"; };
+		8D828A141AB8647000D59453 /* html_blocks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = html_blocks.c; sourceTree = "<group>"; };
+		8D828A151AB8647000D59453 /* html_smartypants.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = html_smartypants.c; sourceTree = "<group>"; };
+		8D828A161AB8647000D59453 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		8D828A171AB8647000D59453 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		8D828A181AB8647000D59453 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		8D828A191AB8647000D59453 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		8D828A2A1AB8649500D59453 /* hoedown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hoedown.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D8289E91AB862AC00D59453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8289F51AB862AC00D59453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8289F91AB862AC00D59453 /* HoedownSwiftSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D8289E31AB862AC00D59453 = {
+			isa = PBXGroup;
+			children = (
+				8D828A091AB8647000D59453 /* Hoedown */,
+				8D8289EF1AB862AC00D59453 /* HoedownSwiftSample */,
+				8D8289FC1AB862AC00D59453 /* HoedownSwiftSampleTests */,
+				8D8289EE1AB862AC00D59453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D8289EE1AB862AC00D59453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D8289ED1AB862AC00D59453 /* HoedownSwiftSample.framework */,
+				8D8289F81AB862AC00D59453 /* HoedownSwiftSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8289EF1AB862AC00D59453 /* HoedownSwiftSample */ = {
+			isa = PBXGroup;
+			children = (
+				8D828A2A1AB8649500D59453 /* hoedown.swift */,
+				8D8289F21AB862AC00D59453 /* HoedownSwiftSample.h */,
+				8D8289F01AB862AC00D59453 /* Supporting Files */,
+			);
+			path = HoedownSwiftSample;
+			sourceTree = "<group>";
+		};
+		8D8289F01AB862AC00D59453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D8289F11AB862AC00D59453 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D8289FC1AB862AC00D59453 /* HoedownSwiftSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D8289FF1AB862AC00D59453 /* HoedownSwiftSampleTests.swift */,
+				8D8289FD1AB862AC00D59453 /* Supporting Files */,
+			);
+			path = HoedownSwiftSampleTests;
+			sourceTree = "<group>";
+		};
+		8D8289FD1AB862AC00D59453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D8289FE1AB862AC00D59453 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D828A091AB8647000D59453 /* Hoedown */ = {
+			isa = PBXGroup;
+			children = (
+				8D828A0A1AB8647000D59453 /* autolink.c */,
+				8D828A0B1AB8647000D59453 /* autolink.h */,
+				8D828A0C1AB8647000D59453 /* buffer.c */,
+				8D828A0D1AB8647000D59453 /* buffer.h */,
+				8D828A0E1AB8647000D59453 /* document.c */,
+				8D828A0F1AB8647000D59453 /* document.h */,
+				8D828A101AB8647000D59453 /* escape.c */,
+				8D828A111AB8647000D59453 /* escape.h */,
+				8D828A121AB8647000D59453 /* html.c */,
+				8D828A131AB8647000D59453 /* html.h */,
+				8D828A141AB8647000D59453 /* html_blocks.c */,
+				8D828A151AB8647000D59453 /* html_smartypants.c */,
+				8D828A161AB8647000D59453 /* stack.c */,
+				8D828A171AB8647000D59453 /* stack.h */,
+				8D828A181AB8647000D59453 /* version.c */,
+				8D828A191AB8647000D59453 /* version.h */,
+			);
+			name = Hoedown;
+			path = hoedown/src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D8289EA1AB862AC00D59453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D828A211AB8647000D59453 /* escape.h in Headers */,
+				8D828A1B1AB8647000D59453 /* autolink.h in Headers */,
+				8D828A231AB8647000D59453 /* html.h in Headers */,
+				8D828A1D1AB8647000D59453 /* buffer.h in Headers */,
+				8D828A1F1AB8647000D59453 /* document.h in Headers */,
+				8D8289F31AB862AC00D59453 /* HoedownSwiftSample.h in Headers */,
+				8D828A291AB8647000D59453 /* version.h in Headers */,
+				8D828A271AB8647000D59453 /* stack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D8289EC1AB862AC00D59453 /* HoedownSwiftSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D828A031AB862AC00D59453 /* Build configuration list for PBXNativeTarget "HoedownSwiftSample" */;
+			buildPhases = (
+				8D8289E81AB862AC00D59453 /* Sources */,
+				8D8289E91AB862AC00D59453 /* Frameworks */,
+				8D8289EA1AB862AC00D59453 /* Headers */,
+				8D8289EB1AB862AC00D59453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoedownSwiftSample;
+			productName = HoedownSwiftSample;
+			productReference = 8D8289ED1AB862AC00D59453 /* HoedownSwiftSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D8289F71AB862AC00D59453 /* HoedownSwiftSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D828A061AB862AC00D59453 /* Build configuration list for PBXNativeTarget "HoedownSwiftSampleTests" */;
+			buildPhases = (
+				8D8289F41AB862AC00D59453 /* Sources */,
+				8D8289F51AB862AC00D59453 /* Frameworks */,
+				8D8289F61AB862AC00D59453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D8289FB1AB862AC00D59453 /* PBXTargetDependency */,
+			);
+			name = HoedownSwiftSampleTests;
+			productName = HoedownSwiftSampleTests;
+			productReference = 8D8289F81AB862AC00D59453 /* HoedownSwiftSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D8289E41AB862AC00D59453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Safx Developers";
+				TargetAttributes = {
+					8D8289EC1AB862AC00D59453 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8D8289F71AB862AC00D59453 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 8D8289E71AB862AC00D59453 /* Build configuration list for PBXProject "HoedownSwiftSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D8289E31AB862AC00D59453;
+			productRefGroup = 8D8289EE1AB862AC00D59453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D8289EC1AB862AC00D59453 /* HoedownSwiftSample */,
+				8D8289F71AB862AC00D59453 /* HoedownSwiftSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D8289EB1AB862AC00D59453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8289F61AB862AC00D59453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D8289E81AB862AC00D59453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D828A241AB8647000D59453 /* html_blocks.c in Sources */,
+				8D828A221AB8647000D59453 /* html.c in Sources */,
+				8D828A251AB8647000D59453 /* html_smartypants.c in Sources */,
+				8D828A1A1AB8647000D59453 /* autolink.c in Sources */,
+				8D828A2B1AB8649500D59453 /* hoedown.swift in Sources */,
+				8D828A281AB8647000D59453 /* version.c in Sources */,
+				8D828A1E1AB8647000D59453 /* document.c in Sources */,
+				8D828A201AB8647000D59453 /* escape.c in Sources */,
+				8D828A261AB8647000D59453 /* stack.c in Sources */,
+				8D828A1C1AB8647000D59453 /* buffer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8289F41AB862AC00D59453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D828A001AB862AC00D59453 /* HoedownSwiftSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D8289FB1AB862AC00D59453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D8289EC1AB862AC00D59453 /* HoedownSwiftSample */;
+			targetProxy = 8D8289FA1AB862AC00D59453 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D828A011AB862AC00D59453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D828A021AB862AC00D59453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D828A041AB862AC00D59453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HoedownSwiftSample/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D828A051AB862AC00D59453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HoedownSwiftSample/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D828A071AB862AC00D59453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoedownSwiftSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D828A081AB862AC00D59453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoedownSwiftSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D8289E71AB862AC00D59453 /* Build configuration list for PBXProject "HoedownSwiftSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D828A011AB862AC00D59453 /* Debug */,
+				8D828A021AB862AC00D59453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D828A031AB862AC00D59453 /* Build configuration list for PBXNativeTarget "HoedownSwiftSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D828A041AB862AC00D59453 /* Debug */,
+				8D828A051AB862AC00D59453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D828A061AB862AC00D59453 /* Build configuration list for PBXNativeTarget "HoedownSwiftSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D828A071AB862AC00D59453 /* Debug */,
+				8D828A081AB862AC00D59453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D8289E41AB862AC00D59453 /* Project object */;
+}

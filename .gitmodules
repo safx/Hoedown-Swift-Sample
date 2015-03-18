@@ -1,0 +1,6 @@
+[submodule "Externals/hoedown"]
+	path = Externals/hoedown
+	url = https://github.com/hoedown/hoedown.git
+[submodule "hoedown"]
+	path = hoedown
+	url = https://github.com/hoedown/hoedown.git
